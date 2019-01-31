@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "release": "npm run clean-build && npm run test && git push && npm run gh-pages && npm publish",
     "clean-dist": "rimraf dist",
     "clean-build": "rimraf dist && tsc",
