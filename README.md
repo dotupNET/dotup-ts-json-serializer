@@ -1,24 +1,24 @@
-[![Build Status](https://travis-ci.org/dotupNET/dotup-ts-library-template.svg?branch=master)](https://travis-ci.org/dotupNET/dotup-ts-library-template)
+[![Build Status](https://travis-ci.org/dotupNET/dotup-ts-json-serializer.svg?branch=master)](https://travis-ci.org/dotupNET/dotup-ts-json-serializer)
 
-# dotup-ts-library-template
-Template for typescript libraries.
-
-With tslint, jasmine, travis, typedoc and gh-pages integration.
+# dotup-ts-json-serializer
 
 ## USAGE
 
-Replace your-project-name and your-user-name with your own.
+Typescript:
+```typescript
 
-- git clone https://github.com/dotupNET/dotup-ts-library-template.git **your-project-name**
-- git remote set-url origin https://github.com/your-user-name/your-project-name.git
-- Modify package.json (name, version, ...)
-- Create your library
-- Run in terminal: npm publish
-- git remote add template https://github.com/dotupNET/dotup-ts-library-template.git (if you want to fetch upgrades)
+  const jm = new JsonManager();
+  const p1 = new Player('Player 1');
+  const p2 = new Player('Player 2');
 
+  const playerList = [p1, p2];
+  const toJson = jm.SerializeReplaced(playerList);
+  const playerListFromJson = jm.Parse(toJson);
+
+```
 
 ## Docs:
-https://dotupnet.github.io/dotup-ts-library-template/index.html
+https://dotupnet.github.io/dotup-ts-json-serializer/index.html
 
 ## repository:
-https://github.com/dotupNET/dotup-ts-library-template
+https://github.com/dotupNET/dotup-ts-json-serializer

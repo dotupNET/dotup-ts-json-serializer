@@ -1,6 +1,6 @@
 {
-  "name": "dotup-ts-library-template",
-  "version": "0.0.23",
+  "name": "dotup-ts-json-serializer",
+  "version": "0.0.1",
   "description": "template for typescript libraries",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotupNET/dotup-ts-library-template.git"
+    "url": "git+https://github.com/dotupNET/dotup-ts-json-serializer.git"
   },
   "keywords": [
     "typescript",
@@ -26,9 +26,9 @@
   "author": "Peter Ullrich",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dotupNET/dotup-ts-library-template/issues"
+    "url": "https://github.com/dotupNET/dotup-ts-json-serializer/issues"
   },
-  "homepage": "https://github.com/dotupNET/dotup-ts-library-template#readme",
+  "homepage": "https://github.com/dotupNET/dotup-ts-json-serializer#readme",
   "devDependencies": {
     "@types/jasmine": "^3.3.7",
     "gh-pages": "^2.0.1",
