@@ -1,6 +1,6 @@
 import { GameConfiguration } from '../spec/models/GameConfiguration';
 import { Player } from '../spec/models/Player';
-import { JsonManager } from './index';
+import { JsonManager } from '../src/index';
 
 export class Sample {
 
