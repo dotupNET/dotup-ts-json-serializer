@@ -1,7 +1,7 @@
 {
   "name": "dotup-ts-json-serializer",
   "version": "0.0.1",
-  "description": "template for typescript libraries",
+  "description": "Small helper creating original objects from json string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -23,7 +23,7 @@
     "library",
     "template"
   ],
-  "author": "Peter Ullrich",
+  "author": "Peter Ullrich - dotup IT solutions",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dotupNET/dotup-ts-json-serializer/issues"
